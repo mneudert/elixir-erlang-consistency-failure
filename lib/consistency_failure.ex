@@ -1,0 +1,2 @@
+defmodule ConsistencyFailure do
+end
