@@ -9,7 +9,4 @@ otp_release:
   - 18.3
   - 19.0
 
-script:
-  - mix compile
-  - rm lib/consistency_failure.ex
-  - mix test
+script: mix compile; rm lib/consistency_failure.ex; mix test
